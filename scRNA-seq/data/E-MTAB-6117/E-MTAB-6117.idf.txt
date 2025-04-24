@@ -1,0 +1,39 @@
+Comment[ArrayExpressAccession]	E-MTAB-6117
+MAGE-TAB Version	1.1
+Comment[Submitted Name]	Single-cell RNA-seq of the 16-cell stage Ciona embryo																																				
+Investigation Title	Single-cell RNA-seq of the 16-cell stage Ciona embryo
+Experiment Description	Ciona develops according to a stereotyped or invariant lineage. This allowed us to collect precisely defined replicates of all eight blastomeres of the right half of the embryo at the 16-cell stage of Ciona. We manually dissected each embryo, collecting and identifying each cell before library preparation and single-cell RNA-seq to give us a data set of 8 blastomeres x 4 embryos (32 cells). We sequenced these on MiSeq and HiSeq 2500. A fifth embryo was only sequenced on MiSeq and excluded from subsequent analysis.
+Experimental Design	development or differentiation design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO_0001746
+Experimental Factor Name	individual	single cell identifier
+Experimental Factor Type	individual	single cell identifier
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000542
+Person Last Name	Ilsley	Suyama	Noda	Luscombe
+Person First Name	Garth	Ritsuko	Takeshi	Nicholas
+Person Mid Initials	R			M
+Person Email	garth.ilsley@oist.jp	ritsuko.suyama@oist.jp	noda@oist.jp	nicholas.luscombe@oist.jp
+Person Phone
+Person Fax
+Person Address	1919-1 Tancha, Onna-son, Kunigami-gun Okinawa, Japan 904-0495	1919-1 Tancha, Onna-son, Kunigami-gun Okinawa, Japan 904-0495	1919-1 Tancha, Onna-son, Kunigami-gun Okinawa, Japan 904-0495	1919-1 Tancha, Onna-son, Kunigami-gun Okinawa, Japan 904-0495
+Person Affiliation	OIST Graduate University	OIST Graduate University	OIST Graduate University	OIST Graduate University
+Person Roles	data analyst;submitter	experiment performer	experiment performer	investigator
+Public Release Date	2018-09-17
+Protocol Name	P-MTAB-68487	P-MTAB-68488	P-MTAB-68489	P-MTAB-68490	P-MTAB-68491	P-MTAB-68492
+Protocol Type	sample collection protocol	nucleic acid library construction protocol	nucleic acid sequencing protocol	nucleic acid sequencing protocol	high throughput sequence alignment protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0004184	EFO_0004170	EFO_0004170	EFO_0004917	EFO_0003816
+Protocol Description	Ciona intestinalis type A, recently designated Ciona robusta, adults were obtained from Maizuru Fisheries Research Station (Kyoto University) and Misaki Marine Biological station (The University of Tokyo) under the National Bio-Resource Project for Ciona. They were maintained in aquarium in our laboratory at Okinawa Institute of Science and Technology Graduate University under constant light (Calcitrans, Nisshin Marinetech Co., Ltd.) for three days apart from a few hours of darkness a day with feeding to induce spawning of the old eggs. After this, the Ciona were maintained under constant light to induce oocyte maturation. Eggs and sperm were obtained surgically from the gonoducts. Embryos were dechorionated after insemination using a solution of 0.07% actinase and 1.3% sodium thioglycolate. Eggs were reared to reach the 16-cell stage in Millipore-filtered seawater (MFSW) at about 18 °C. Embryos from each insemination batch were kept to check the ratio that developed into morphologically normal tailbud. We only used embryos from batches where more than 70% developed normally to tailbud (10 hours post fertilization at 18 degrees). At a defined point in development of the 16-cell embryo i.e., at the stage immediately after compaction of the embryo (2.5 ~ 2.6 hours post fertilization), the embryo was transferred to 4°C to slow its development. Each blastomere was isolated with a fine glass needle in a mannitol solution (0.77 M mannitol : MFSW, 9:1) under a stereo microscope at 4 °C regulated by a thermo plate (Tokai Hit Co., Ltd.) and its identity noted. Isolated blastomeres were picked up and transferred immediately with a mouth pipet into a lysis buffer for reverse transcription. 	We followed the single-cell library preparation method of Tang et al (2009,2010) with some modification. We added ERCC spike-in RNA (Thermo Fisher scientific, 4456740, 1:80000) to each lysis buffer and applied 14 and then 9 cycles of PCR amplification after second strand synthesis. Amplified cDNA was purified with MinElute PCR Purification kit (28006, QIAGEN) and QIAquick PCR Purification Kit (28106, QIAGEN) after each PCR reaction respectively and its concentration measured with Qubit® 2.0 Fluorometer (Q32866, Life Technologies) to have more than 150 ng total yield of cDNA. The quality of the amplified cDNA and distribution of DNA fragment size were confirmed by Agilent 2100 Bioanalyzer (Agilent Technologies) with High Sensitivity DNA Kit (5067-4626, Agilent) to consist mainly of 1.0-1.5 kb fragments. Amplified cDNAs were sheared using sonication Covaris S2 System to produce DNA of 300 bp on average. The settings were as follows: Duty cycle: 20%, Intensity: 5, Cycles per burst: 200, Power mode -  Frequency sweeping, Treatment time: 90 seconds, Temperature: 12°C. NEB Next® ChIP-Seq Library Prep Master Mix Set for Illumina® (E6240, NEB) was applied to sheared cDNA for preparation of the library for the Illumina platform. NEBNext® Multiplex Oligos for Illumina (E7335, E7500, NEB Next Multiplex Oligos for Illumina, NEB) were combined to introduce an index and adaptor to the double-stranded DNA. After extraction of the 300 bp fraction of adaptor-ligated DNA by E-Gel Size Select 2% Agarose (G661002, Invitrogen), DNA was amplified with individual index primers using PCR with 19 cycles.  The amplified DNA fragment composition was purified with Agencourt AMPure XP twice (A63881, Beckman) and again checked by Qubit (> 60 ng of cDNA in total yield) and by Bioanalyzer to ensure that the fragment size was sharply distributed around 300 bp (on average, about 320 bp with a standard deviation of 40). The concentration of fragments with appropriate index adapters was quantified by KAPA Library Quantification Kits (KAPA Library Quantification Kits, Illumina GA/Universal, KK4825, Genetics) to ensure that the final libraries had adapters for both ends and their concentration was at least 20 pM.	Libraries were sequenced on Illumina's (San Diego, CA) MiSeq benchtop sequencer. Pooled libraries with different indexes were sequenced on MiSeq using paired 150 nt reads (No. MS-102-2002, MiSeq Reagent Kit v2) with eight multiplexed samples per run with the standard Illumina protocols. 	The same libraries as for MiSeq were sequenced on an Illumina HiSeq 2500 with 150 bp paired end reads (No. PE-402-4001 and FC-402-4001, TruSeq Rapid Cluster - Paired-End and SBS Kits) with 16 multiplexed samples per lane following standard Illumina protocols.	The reads were aligned using Bowtie version 2.2.6 to the Ciona KH genome assembly. Reads were mapped using local alignment (--local), with other settings at their default. We did not trim or filter reads.	Gene counts were calculated from the resulting alignment files using htseq-count with the non-stranded option and mode 'intersection-nonempty' against the KH gene models (version 2013). Raw counts are provided.
+Protocol Hardware			Illumina MiSeq	Illumina HiSeq 2500
+Protocol Software
+Term Source Name	EFO
+Term Source File	http://www.ebi.ac.uk/efo/
+Term Source Version
+Comment[AEExperimentType]	RNA-seq of coding RNA from single cells
+Comment[AdditionalFile:txt]	ERCC_spike_in_concentrations.txt
+Comment[AdditionalFile:fa]	KH.Genome_ERCC92.fa
+Comment[AdditionalFile:gff3]	KH.Genome_ERCC92.gff3
+Comment[SecondaryAccession]	ERP104649
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR2163587-ERR2163658
+SDRF File	E-MTAB-6117.sdrf.txt
